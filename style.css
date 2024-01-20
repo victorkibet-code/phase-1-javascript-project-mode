@@ -1,0 +1,75 @@
+.heading {
+    background-color: #787adb;
+    margin-bottom: 20px;
+    padding: 5px 0px 5px 15px;
+}
+
+.title {
+    background-color: #917f7f;
+    padding: 5px;
+    color: white;
+}
+body {
+    background-color:#EBEBEB;
+}
+img {
+    max-width: 50vw;
+}
+h1 {
+    color: rgb(62, 62, 156);
+    text-align: center;
+    block-size: auto;
+    display: flex
+    t
+}
+#car-info {
+    padding-bottom: 15px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+section {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}

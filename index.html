@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victor Car dealership</title>
+
+  <link rel="stylesheet" href="./style.css">
+ <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+
+  <h1>Victor Car Dealership</h1>
+<p>Cars featured</p>
+<button id="clickMeBtn">Click Me</button>
+</header>
+
+<section id="welcomeSection">
+   <h2> Welcome to Victor dealership<h2>
+    <p> the journey to your dream  begins! Are you ready to elevate your driving experience to new heights? 
+Look no further! We have an irresistible lineup of the latest models 
+that redefine style, performance, and innovation. we don't just sell cars;
+ we deliver unforgettable driving adventures!</p>
+    </section>
+
+    <section id="whyChooseSection">
+      <h2>Why Choose Victor Dealership?</h2>
+      <ul>
+          <li><strong>Wide Selection:</strong> Explore our showroom filled with an extensive range of vehicles, from sleek sedans to powerful SUVs. We have the perfect ride to match your lifestyle and preferences.</li>
+          <li><strong>Unbeatable Deals:</strong> Our exclusive offers and financing options make it easier than ever to get behind the wheel of your dream car. Drive home with confidence, knowing you got the best deal in town.</li>
+          <li><strong>Certified Pre-Owned:</strong> Looking for quality on a budget? Discover our meticulously inspected and certified pre-owned vehicles, ensuring reliability and peace of mind with every purchase.</li>
+          <li><strong>Expert Advice:</strong> Our knowledgeable and friendly team is here to guide you through the entire process. Whether you're a first-time buyer or a seasoned car enthusiast, we'll provide the insights you need to make the right choice.</li>
+      </ul>
+  </section>
+
+<section id="carsSection">
+<div class="heading">
+    <div class='item'>
+      <h3 class="ui header">
+        <i class="orange ticket icon"></i>
+        <div class="content">
+          Variety of Cars
+        </div>
+        <div class="sub header" id="subtitle">
+          <p>Affordable cars available</p>
+        </div>
+      </h3>
+    </div>
+  </div>
+    <div id="carDescription">[INSERT CAR DESCRIPTION HERE]</div>
+<img src="./image/2023_Acura_Integra_16.jpg" alt="latest model">
+  </section>
+
+  <section id="inquirySection">
+<h4>inquiry details</h4>
+
+<form id="inquiry form">
+  <form id="inquiryForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Submit">
+</form>
+</section>
+<div id="response-message"></div>
+
+
+<script src="./index.js"></script>
+</body>
+</html>
